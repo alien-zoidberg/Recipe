@@ -1,0 +1,5 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 20vh 50vh 15vh 15vh;
+}
