@@ -48,6 +48,17 @@ article{
     justify-content: flex-start;
 }
 
+#ing{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 10vh);
+    gap: 5px;
+}
+
+#salt{
+    max-width: 70px;
+}
+
 img{
     max-width: 100px;
     max-height: 90px;
