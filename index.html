@@ -5,62 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@1..144,1..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Oatmeal Poridge</h1>
+        <h1 class="gsf">Oatmeal Porridge</h1>
     </header>
 
     <aside>
-        <p>Table of Contents</p>
-        <ul>
+        <p class="gsf">Table of Contents</p>
+        <ul class="gsf">
             <li>About the food</li>
-            <li>Ingridients</li>
+            <li>Ingredients</li>
             <li>Recipe</li>
-            <li>Purchase ingridients here</li>
+            <li>Purchase ingredients here</li>
             <li>Contact info</li>
         </ul>
     </aside>
 
     <main>
-        <article id="food">
-            <h2>About the food</h2>
-            <p>Oatmeal poridge is a traditional nordic food made by boiling oats in water. It origienated around the midle ages.</p>
+        <article>
+            <h2 class="gsf">About the food</h2>
+            <p class="gsf">Oatmeal porridge is a traditional nordic food made by boiling oats in water. It originated around the middle ages.</p>
             <img src="./img/image4.jpeg" alt="">
         </article>
 
-        <article id="ing">
-            <h2>Ingridients</h2>
-            <ul>
+        <article>
+            <h2 class="gsf">Ingredients</h2>
+            <ul class="gsf">
                 <li>Whole grain oats</li>
                 <li>Water</li>
                 <li>A pinch of salt</li>
             </ul>
-            <img src="./img/image0(1).jpeg" alt="">
-            <img src="./img/image2.jpeg" alt="">
-            <img src="./img/image3.jpeg" alt="">
+            <div id="ing">
+                <img src="./img/image0(1).jpeg" alt="">
+                <img src="./img/image2.jpeg" alt="">
+                <img src="./img/image0(2).jpeg" id="salt" alt="">
+            </div>
         </article>
 
-        <article id="rec">
-            <h2>Recipe</h2>
-            <ol>
-                <li>Place the oats in a bowl</li>
-                <li>Pour the water on the oats</li>
-                <li>Place the bowl containing the oats in the microwave</li>
-                <li>Microwave for 3 minutes</li>
+        <article>
+            <h2 class="gsf">Recipe</h2>
+            <ol class="gsf">
+                <li>Place 40g of oats in a bowl</li>
+                <li>Pour 2 dl of water in the same bowl</li>
+                <li>Microwave for 90 seconds</li>
+                <li>Take it out of the microwave and stir</li>
+                <li>Microwave it for an additional 30 seconds</li>
             </ol>
             <img src="./img/image4.jpeg" id="bowlPoridge" alt="">
         </article>
     </main>
 
     <nav>
-        <p>You can purchase the ingridients here:</p>
-        <a href="" id="ingridientsLink">ICA</a>
+        <p class="gsf">You can purchase the ingridients here:</p>
+        <a href="https://www.coop.se/handla/varor/skafferi/flingor-musli/gryn/havregryn-7300156599452" id="ingridientsLink" class="gsf">CO-OP</a>
     </nav>
     
     <footer>
-        <p id="footerText1">Contact us:</p>
-        <p id="footerText2">william.webster@elev.ga.ntig.se</p>
+        <p id="footerText1" class="gsf">Contact us:</p>
+        <p id="footerText2" class="gsf">william.webster@elev.ga.ntig.se</p>
     </footer>
 </body>
 </html>
